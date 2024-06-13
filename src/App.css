@@ -1,0 +1,13 @@
+.custom-bg {
+    background-color: rgb(104, 223, 217);
+    height: 100vh;
+    margin: 0;
+  }
+
+  .alert { /* Assuming your Alert component has this class */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Make the alert span the entire width */
+    z-index: 999; /* Ensure the alert is on top of other elements */
+  }
